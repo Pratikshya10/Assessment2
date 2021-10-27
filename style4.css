@@ -1,0 +1,119 @@
+body{
+    background-image: url(image.html.jpg);
+    border: 8px ridge green;
+}
+
+#container{
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+    justify-content: center;
+    font-style: italic;
+}
+.box1{
+    border: 5px solid red;
+    margin: 20px;
+    border-radius: 30px;
+    width: 300px;
+    height: 90px;
+    display: flex;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 0;
+}
+.box2{
+    border: 5px solid red;
+    margin: 20px;
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color: white;
+    padding: 0;
+}
+.box3{
+    border: 5px solid red;
+    margin: 20px;
+    border-radius: 30px;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color: white;
+    padding: 0;
+}
+
+#middle{
+    display: flex;
+}
+
+.circle{
+    border: 10px solid gray;
+    border-radius: 50%;
+    background-color: darkcyan;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 300px;
+    height: 200px;
+    padding: 50px 2px 2px 2px;
+}
+
+form{
+    border: 5px dashed red;
+    text-align: center;
+    height: 600px;
+    width: 350px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+h2{
+    font-style: normal;
+    color: palevioletred;
+}
+label{
+    color: palevioletred;
+}
+input{
+    text-align: center;
+}
+
+#menu{
+    display: flex;
+}
+i{
+    border: 5px solid red;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-left: 500px;
+    padding: 20px 150px 10px 150px;
+    font-size: 30px;
+}
+
+#block{
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.food{
+    border: 2px solid green;
+    border-radius: 30px;
+    background-color: cyan;
+    color: blue;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
